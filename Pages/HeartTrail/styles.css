@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    overflow: hidden;
+    background: black;
+    height: 100vh;
+    color: aliceblue;
+}
+
+h1{
+    font-size: large;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    @media (min-width: 900px) {
+        display: none;
+    }
+}
+
+span{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    background: url("../../assets/amor.png");
+    background-size:cover;
+    animation: heart 5s linear infinite;
+    z-index: 2;
+}
+
+@keyframes heart {
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0deg);
+    }
+
+    100%{
+        transform: translate(-50%, -1500%);
+        opacity: 0;
+        filter: hue-rotate(920deg);
+    }
+}
+
+a{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
