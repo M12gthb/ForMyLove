@@ -16,16 +16,28 @@ const dataBase = [
         letter: "Tu me acalma!"
     },
     {
+        src: "../../assets/YouandMe.jpg",
+        letter: "Gosto muito é de ti!"
+    },
+    {
+        src: "../../assets/Rats.webp",
+        letter: "Nós somos doidos"
+    },
+    {
+        src: "../../assets/Forever.jpg",
+        letter: "Nós sempre juntos!"
+    },
+    {
+        src: "../../assets/yourBear.jpg",
+        letter: "Sou seu ursinho!"
+    },
+    {
         src: "../../assets/loveYourSmile.jpg",
         letter: "Amo teu sorriso!"
     },
     {
         src: "../../assets/inmyarms.jpg",
         letter: "Amo te abraçar!"
-    },
-    {
-        src: "../../assets/yourBear.jpg",
-        letter: "Sou seu ursinho!"
     },
     {
         src: "../../assets/imgkiss.jpg",
@@ -48,12 +60,24 @@ const dataBase = [
         letter: "Amo teu sorriso!"
     },
     {
-        src: "../../assets/SurrenderForHer.jpg",
-        letter: "Completamente rendido por essa garota!"
+        src: "../../assets/crazyYou.jpg",
+        letter: "Amo tuas caretas"
     },
     {
         src: "../../assets/imgTogether.jpg",
         letter: "Amo nós dois juntos!"
+    },
+    {
+        src: "../../assets/HAPPYyoU.jpg",
+        letter: "Nós somos muito felizes"
+    },
+    {
+        src: "../../assets/SurrenderForHer.jpg",
+        letter: "Completamente rendido por essa garota!"
+    },
+    {
+        src: "../../assets/MerryChristimas.jpg",
+        letter: "Feliz natal!"
     },
     {
         src: "../../assets/MyRealLove.jpg",
@@ -79,14 +103,14 @@ function render() {
     if (currentIndex === dataBase.length - 1) {
         const anchor = document.createElement("a");
         anchor.href = "#";
-        anchor.innerText = "Voltar"; // Adicione o texto desejado
+        anchor.innerText = "Voltar"; 
         anchor.addEventListener("click", handleAnchorClick);
         photo.appendChild(anchor);
     }
 
     if (currentIndex == 0) {
         const text = document.createElement("h3");
-        text.innerText = "Passe para o lado >"; // Adicione o texto deseja
+        text.innerText = "Passe para o lado >"; 
         photo.appendChild(text);
     }
 
