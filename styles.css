@@ -17,6 +17,7 @@ div{
     transform: translateX(-50%);
     width: 80%;
     max-width: 550px;
+    margin-bottom: 30px;
 }
 
 h1{

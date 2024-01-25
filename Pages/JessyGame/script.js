@@ -61,13 +61,18 @@ const gameOver = document.querySelector('.game-over')
             mario.style.marginLeft = '50px'
     
             game_board.innerHTML = `GAME OVER`
-            game_board.style.color = `red`
+            game_board.style.color = `orangered`
             game_board.style.fontSize = '50px'
             game_board.style.textAlign = 'Center'
             game_board.style.paddingTop = '250px'
 
             const reiniciar = document.querySelector('.reiniciar')
+            const body = document.querySelector("body")
 
+            const a = document.createElement("a")
+            a.innerText = "Voltar"
+            a.href="../../index.html"
+            body.appendChild(a)
     
             reiniciar.style.display = "block"
             reiniciar.style.padding = "17px"

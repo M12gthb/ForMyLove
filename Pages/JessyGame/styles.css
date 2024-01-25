@@ -136,3 +136,14 @@ body{
     position: absolute;
     left: 52%;
 }
+
+a{
+    font-family: "sofia", cursive;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: orangered;
+}
