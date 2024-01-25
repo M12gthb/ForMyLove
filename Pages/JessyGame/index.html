@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/ame.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=fire"
+    />
+    <title>JessyGame</title>
+  </head>
+  <body>
+    <div class="game-board">
+      <span class="score">0</span>
+      <img src="images/JessGame.svg" class="mario" />
+      <img src="images/teddy-bear-svgrepo-com.svg" class="pipe" />
+    </div>
+
+    <audio controls class="audio">
+      <source src="audio/BLACKPINK - ‘Pink Venom’ M_V.mp3" type="audio/mp3" />
+    </audio>
+
+    <audio controls class="game-over">
+      <source
+        src="audio/BLACKPINK - 'Kill This Love' M_V.mp3"
+        type="audio/mp3"
+      />
+    </audio>
+
+    <button onclick="window.location.reload()" class="reiniciar">
+      Reiniciar
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
