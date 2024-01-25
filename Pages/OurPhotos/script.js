@@ -56,10 +56,6 @@ const dataBase = [
         letter: "Amo frescar contigo!"
     },
     {
-        src: "../../assets/loveYourSmile.jpg",
-        letter: "Amo teu sorriso!"
-    },
-    {
         src: "../../assets/crazyYou.jpg",
         letter: "Amo tuas caretas"
     },

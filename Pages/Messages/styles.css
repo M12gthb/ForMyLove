@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(40deg, rgb(3, 0, 2), rgb(236, 98, 48));
+    font-family: "sofia", cursive;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #surpriseBtn {
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+   
+  }
+  
+  #mensageSurprise {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 200, 0, 0.742); 
+  }
+
+a{
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    color: bisque;
+    cursor: pointer;
+    display: none;
+}
+  
