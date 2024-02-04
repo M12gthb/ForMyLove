@@ -46,6 +46,16 @@ const data = [
         name: "Fox",
         link: "PageAnimals/Fox/index.html",
         icon: "../Animals/assets/raposa.svg"
+    },
+    {
+        name: "Dog",
+        link: "PageAnimals/Dog/index.html",
+        icon: "../Animals/assets/dogo-argentino.svg"
+    },
+    {
+        name: "Bat",
+        link: "PageAnimals/Bat/index.html",
+        icon: "../Animals/assets/bastao.svg"
     }
 ]
 
