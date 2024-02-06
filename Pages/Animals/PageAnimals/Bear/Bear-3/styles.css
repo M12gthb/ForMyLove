@@ -1,0 +1,33 @@
+.page_404{ 
+    /* padding:40px 0;  */
+    background:linear-gradient(to bottom, #292256 0%, #8446cf 70%, #a871d6 100%);
+    color: #000000;
+    font-family: 'Arvo', serif;
+    width: 100vw;
+  }
+  
+  .page_404  img{ width:100%;}
+  
+  .four_zero_four_bg{
+  
+  background-image: url(https://media3.giphy.com/media/oS9gvPTg8i9VYfIohK/giphy.gif?cid=790b76115dd5990c1d5900b2391a1ca5ad8b63c5829f0cfc&rid=giphy.gif&ct=s);
+  height: 100vh;
+  background-position: center;
+  width: 100vw;
+  }
+  
+  .four_zero_four_bg h1{
+  font-size:80px;
+  }
+  
+    .four_zero_four_bg h3{
+      font-size:80px;
+      }     
+    .link_404{      
+    color: rgb(0, 0, 0)!important;
+      padding: 10px 20px;
+      background:  linear-gradient(to bottom, #292256 0%, #8446cf 70%, #a871d6 100%);
+      margin: 20px 0;
+      font-weight: 600;
+      display: inline-block;}
+    .contant_box_404{ margin-top:-50px;}
